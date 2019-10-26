@@ -1,0 +1,76 @@
+body {
+    background-color:#174799;
+    color:white;
+}
+
+header {
+    text-align: center;
+    color: orange;
+}
+
+h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 2.5em;
+    margin-bottom: 0px;
+}
+
+main, nav
+{
+    text-align: center;
+    color: white;
+}
+
+nav a {    /* links within "nav" container */
+    padding:15px;
+    padding-bottom:4px;
+    font-size: 1.8em;
+    text-decoration: none; /* removes underline */
+    color: white; /* by default, links are blue */
+}
+
+nav a:hover { /* pseudo class */
+    border-bottom:2px orange solid;
+    font-size: 2em;
+    transition: .9s; /*transition effect*/
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    font-size: 0.75em;
+    color: orange;
+}
+
+table {
+    margin: 0px auto;
+}
+
+td {
+    padding-right: 10px;
+    font-size: 1.3em;
+}
+
+td strong {
+    color: orange;
+}
+
+#table-header {
+    background-color: white;
+}
+
+.table-row {
+    background-color: lightblue;
+}
+
+ul {
+    width: 600px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.hobby {
+    color: orange;
+}
